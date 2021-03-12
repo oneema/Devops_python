@@ -15,7 +15,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(res, 0)
 
     def test_multiply(self):
-        res = multiply(5,5)
+        res = multiply(5,6)
         self.assertEqual(res, 25)
 
     def test_divide(self):
